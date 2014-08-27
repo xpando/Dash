@@ -1,0 +1,9 @@
+#ignore thumbnails created by windows
+Thumbs.db
+
+Apps
+ConEmu
+Logs
+plugins
+ConEmu.exe
+ConEmu64.exe

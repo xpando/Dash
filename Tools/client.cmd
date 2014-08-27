@@ -1,0 +1,1 @@
+makecert.exe -n "CN=%1" -pe -a sha512 -b 01/01/2000 -e 01/01/9999 -sr LocalMachine -ss my -sky exchange -eku 1.3.6.1.5.5.7.3.2 -in "%COMPUTERNAME%" -ir LocalMachine -is root
