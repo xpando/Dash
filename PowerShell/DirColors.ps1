@@ -80,27 +80,6 @@ New-CommandWrapper Out-Default -Process {
       } else {
         Write-ChildItemColor $item $global:dir_colors.default.fg $global:dir_colors.default.bg
       }
-
-#      switch -regex ($item.Name) {
-#        "(?ix)\.(7z|zip|tar|gz|rar)$" { 
-#          Write-ChildItemColor $item DarkCyan
-#        }
-#        '(?ix)\.(exe|bat|cmd|py|pl|ps1|psm1|vbs|rb|reg)$' { 
-#          Write-ChildItemColor $item DarkGreen
-#        }
-#        '(?ix)\.(doc|docx|ppt|pptx|xls|xlsx|mdb|mdf|ldf)$' { 
-#          Write-ChildItemColor $item Magenta
-#        }
-#        '(?ix)\.(txt|cfg|conf|config|yml|ini|csv|log|json)$' { 
-#          Write-ChildItemColor $item DarkYellow
-#        }
-#        '(?ix)\.(sln|csproj|sqlproj|proj|targets)$' { 
-#          Write-ChildItemColor $item DarkRed
-#        }
-#        default { 
-#          Write-ChildItemColor $item DarkGray
-#        }
-#      }
     }
 
     # prevent default output
