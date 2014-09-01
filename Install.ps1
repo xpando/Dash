@@ -12,7 +12,7 @@ Invoke-WebRequest 'https://conemu.codeplex.com/downloads/get/891710' -OutFile .\
 Write-Host "done." -ForegroundColor Green
 
 Write-Host "Extracting ConEmu..."
-.\Tools\7z.exe x -y .\ConEmu.7z
+.\Tools\7za.exe x -y .\ConEmu.7z
 del .\ConEmu.7z
 Write-Host "done." -ForegroundColor Green
 
