@@ -4,13 +4,15 @@ Import-Module ".\Modules\Util" -DisableNameChecking
 
 Set-Alias which Get-Command
 Set-Alias l Get-ChildItem
+Set-Alias ntm "D:\Git\NeedToMerge\NeedToMerge\bin\Release\NeedToMerge.exe"
 
 Add-Path @(
  ".\Scripts",
  "..\Tools", 
  "..\Apps",
  "..\Apps\figlet",
- "..\Apps\Sysinternals"
+ "..\Apps\Sysinternals",
+ "C:\Program Files (x86)\emacs-24.3\bin"
 )
 
 if (!(Test-Path ENV:NODE_PATH) -and (Test-Path ..\Apps\Node)) {
