@@ -8,7 +8,7 @@
 <key name="Software">
 	<key name="ConEmu">
 		<!-- Main configuration (/config argument is not specified) -->
-		<key name=".Vanilla" modified="2014-08-23 23:26:44" build="140814">
+		<key name=".Vanilla" modified="2015-03-18 09:33:43" build="140814">
 			<value name="IconID" type="long" data="1"/>
 			<value name="BackGround Image show" type="hex" data="01"/>
 			<value name="BackGround Image" type="string" data="%ConEmuDir%\Backgrounds\grill.jpg"/>
@@ -114,11 +114,11 @@
 			<value name="FontBold" type="hex" data="00"/>
 			<value name="FontItalic" type="hex" data="00"/>
 			<value name="Monospace" type="hex" data="02"/>
-			<value name="ConWnd Width" type="ulong" data="187"/>
-			<value name="ConWnd Height" type="ulong" data="47"/>
+			<value name="ConWnd Width" type="ulong" data="132"/>
+			<value name="ConWnd Height" type="ulong" data="40"/>
 			<value name="16bit Height" type="ulong" data="0"/>
-			<value name="ConWnd X" type="long" data="126"/>
-			<value name="ConWnd Y" type="long" data="162"/>
+			<value name="ConWnd X" type="long" data="2237"/>
+			<value name="ConWnd Y" type="long" data="56"/>
 			<value name="Cascaded" type="hex" data="00"/>
 			<value name="SkipFocusEvents" type="hex" data="00"/>
 			<value name="MonitorConsoleLang" type="hex" data="03"/>
